@@ -13,7 +13,7 @@ import { vectorStore } from "@/services/embedding.service";
 import { FileModel } from "@/model/File.model";
 
 const MIN_RELEVANCE_SCORE = 0.35; 
-const SEMANTIC_WEIGHT = 0.70;
+const SEMANTIC_WEIGHT = 0.60;
 const KEYWORD_WEIGHT = 0.30;
 
 function tokenize(text: string): string[] {

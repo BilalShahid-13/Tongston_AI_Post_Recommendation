@@ -1,5 +1,8 @@
 # Tongston — AI-Assisted Post Creation & Files/Docs (Resubmission)
 
+[![Watch the video](./workflow.mp4)](./workflow.mp4)
+
+
 This is a patch set on top of the original submission, addressing the gaps
 raised in review. It keeps the existing project structure and stack
 (Bun + Express + Mongoose + BullMQ + Ollama via LangChain) rather than
